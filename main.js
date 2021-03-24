@@ -17,7 +17,7 @@ loadEvents(client);
 client.mongoose.init();
 client.config = require("./config")
 client.configuration = require('./configuration')
-client.login(client.configuration.TOKENS.DISCORD);
+client.login(process.env.BOT_TOKEN);
 
 process.on('uncaughtException', (error) => {
     console.warn(error);

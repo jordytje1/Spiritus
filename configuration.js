@@ -1,47 +1,47 @@
 module.exports = {
     TOKENS : {
-        DISCORD : '<token>'
+        DISCORD : ''
     },
     MONGOOSE : {
-        DBCONNECTION : '<mongodb url connection>'
+        DBCONNECTION : 'mongodb+srv://hendrik:poepje000@cluster0.ybvrm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
     },
     DEFAULTSETTINGS: {
-        prefix: "<default prefix>",
-        logChannel: "<default logs channel>",
-        welcomeMessage: "<default welcome message>",
-        rankcard: "<default rankcard>",
+        prefix: "!",
+        logChannel: "733994085106581547",
+        welcomeMessage: "welcome",
+        rankcard: "",
         invitations : false, //Default anti-invitations status
         kickauto : false //Default kick-auto status
       },
     WEBHOOKS : {
         ERRORS : {
-            ID : '<webhook errors id>',
-            TOKEN : '<webhook errors token>',
-            NAME : '<webhook errors name>',
-            AVATAR : '<webhook errors name>',
+            ID : '',
+            TOKEN : '',
+            NAME : '',
+            AVATAR : '',
         },
         CONSOLE : {
-            ID : '<webhook errors id>',
-            TOKEN : '<webhook errors token>',
-            NAME : '<webhook errors name>',
-            AVATAR : '<webhook errors name>',
+            ID : '',
+            TOKEN : '',
+            NAME : '',
+            AVATAR : '',
         },
         CONNECTIONS : {
             MONGOOSE : {
-                ID : '<mongodb webhook connection id>',
-                TOKEN : '<mongodb webhook connection token>',
-                NAME : '<mongodb webhook connection name>',
-                AVATAR : '<mongodb webhook connection name>',
+                ID : '',
+                TOKEN : '',
+                NAME : '',
+                AVATAR : '',
             },
             DISCORD : {
-                ID : '<discord webhook connection id>',
-                TOKEN : '<discord webhook connection token>',
-                NAME : '<discord webhook connection name>',
-                AVATAR : '<discord webhook connection name>',
+                ID : '',
+                TOKEN : '',
+                NAME : '',
+                AVATAR : '',
             }
         },
     },
     ADMIN : {
-        ORIGINPULL : '<branch>',
+        ORIGINPULL : '',
     }
 };

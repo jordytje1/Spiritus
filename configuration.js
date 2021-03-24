@@ -13,35 +13,5 @@ module.exports = {
         invitations : false, //Default anti-invitations status
         kickauto : false //Default kick-auto status
       },
-    WEBHOOKS : {
-        ERRORS : {
-            ID : '',
-            TOKEN : '',
-            NAME : '',
-            AVATAR : '',
-        },
-        CONSOLE : {
-            ID : '',
-            TOKEN : '',
-            NAME : '',
-            AVATAR : '',
-        },
-        CONNECTIONS : {
-            MONGOOSE : {
-                ID : '',
-                TOKEN : '',
-                NAME : '',
-                AVATAR : '',
-            },
-            DISCORD : {
-                ID : '',
-                TOKEN : '',
-                NAME : '',
-                AVATAR : '',
-            }
-        },
-    },
-    ADMIN : {
-        ORIGINPULL : '',
     }
 };
